@@ -1,3 +1,12 @@
+//=========================================================================
+//test template literals
+let salam = 'Assalammmualaikum';
+let nama = `${salam} Arief`;
+console.log(nama);
+
+
+//=========================================================================
+//test let and const
 const name = "Raffi";
 
 function hello(name) {
