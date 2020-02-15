@@ -1,4 +1,15 @@
 //=========================================================================
+//test spread operator
+let arrayA = [30, 50, 70];
+let arrayB = [10, ...arrayA, 90];
+console.log(arrayB);
+
+function testSpread(...a){
+    console.log(a);
+}
+testSpread(1,2,3,4,5,6,7,8,9); //we can assign so many value
+
+//=========================================================================
 //test template literals
 let salam = 'Assalammmualaikum';
 let nama = `${salam} Arief`;
