@@ -1,6 +1,12 @@
 //=========================================================================
 //test modules
 
+import multiply from './math';
+console.log(multiply(6, 9));
+
+import { add } from './math';
+console.log(add(5, 8));
+
 import { fellowship, total } from './fellowship';
 console.log(fellowship, total);
 
