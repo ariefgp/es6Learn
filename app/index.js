@@ -1,4 +1,18 @@
 //=========================================================================
+//test map and filter
+
+let numbers = [20, 30, 50];
+
+let doubled = numbers.map((n) => n*2); //remove function expression and return command
+console.log(doubled);
+
+let points = [8, 2, 4, 18, 89, 65, 3, 665, 90, 543, 77, 324, 51]
+
+let highScores = points.filter((n) => n>78); //shorter filter method
+console.log(highScores);
+
+
+//=========================================================================
 //test arrow function
 
 setTimeout(() => { //arrow
