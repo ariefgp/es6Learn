@@ -1,4 +1,17 @@
 //=========================================================================
+//test arrow function
+
+setTimeout(() => { //arrow
+    console.log("Tungguuuuu..!!!");
+}, 2000)
+
+let cheer = () => { //arrow function
+    console.log("Wohooooo");
+}
+
+cheer();
+
+//=========================================================================
 //test destructuring assignments
 let mobil = ['avanza', 'teana', 'xpander'];
 let [toyota, nissan, mitsubishi, renault] = mobil;
