@@ -1,4 +1,10 @@
 //=========================================================================
+//test modules
+
+import { fellowship, total } from './fellowship';
+console.log(fellowship, total);
+
+//=========================================================================
 //test string modification
 
 console.log("butterfly".startsWith("butter"));
