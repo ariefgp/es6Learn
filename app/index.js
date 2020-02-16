@@ -1,4 +1,13 @@
 //=========================================================================
+//test string modification
+
+console.log("butterfly".startsWith("butter"));
+console.log("butterfly".startsWith("fly"));
+console.log("butterfly".endsWith("fly"));
+console.log("butterfly".includes("terfl"));
+console.log("butterfly".includes("flyer"));
+
+//=========================================================================
 //test string repeat
 
 let b = "hooraayy" + "Yeayyy".repeat(50) + "bababa";
