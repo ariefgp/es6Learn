@@ -1,4 +1,13 @@
 //=========================================================================
+//test string repeat
+
+let b = "hooraayy" + "Yeayyy".repeat(50) + "bababa";
+console.log(b);
+
+let d = `hooraayy${"yyyy".repeat(60)}`;
+console.log(d);
+
+//=========================================================================
 //test map and filter
 
 let numbers = [20, 30, 50];
